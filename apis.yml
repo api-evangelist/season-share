@@ -1,7 +1,24 @@
 aid: season-share
 name: Season Share
-description: Season Share is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Season Share (SeasonShare) is a ticketing technology platform for sports and entertainment
+  venues. Its subscription-pass, last-minute, student, and credit-based products — Pass, Flow, Flex, and
+  LivePass — help teams and venues reach younger fans, capture first-party data, and build recurring
+  ticket revenue. It reports $100M+ in ticket inventory delivered and 1.5M tickets purchased, and is used
+  by 30+ franchises including the Sacramento Kings, New Jersey Devils, Arizona Diamondbacks, and Nashville
+  Predators. This profile was surfaced as a Techstars portfolio company; no public API, developer portal,
+  or OpenAPI surface was found during enrichment.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/63caf77557e1cb278689bce3/63cb0319664ebfaf19d38fa5_Frame%20115.jpg
 url: https://raw.githubusercontent.com/api-evangelist/season-share/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Ticketing
+- Sports
+- Entertainment
+- Events
+- Fan Engagement
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +46,14 @@ maintainers:
 common:
 - type: Website
   url: https://seasonshare.com/
+- type: TermsOfService
+  url: https://cdn.prod.website-files.com/5ed7df6fe67e862e0a62f9f2/616882d2b691e09f75348396_Terms%20%26%20Conditions.pdf
+- type: PrivacyPolicy
+  url: https://cdn.prod.website-files.com/5ed7df6fe67e862e0a62f9f2/63c05d80816dac05b5b34ac7_seasonshare%20CCPA%20Privacy%20Policy%20Agreement.pdf
+- type: DomainSecurity
+  url: security/season-share-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
