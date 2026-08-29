@@ -7,6 +7,17 @@ description: Season Share (SeasonShare) is a ticketing technology platform for s
   by 30+ franchises including the Sacramento Kings, New Jersey Devils, Arizona Diamondbacks, and Nashville
   Predators. This profile was surfaced as a Techstars portfolio company; no public API, developer portal,
   or OpenAPI surface was found during enrichment.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
